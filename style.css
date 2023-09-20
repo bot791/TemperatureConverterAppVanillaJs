@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:darkgoldenrod;
+}
+.main{
+    margin-top: 100px;
+}
+.people{
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+#count{
+    height:fit-content;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    color: antiquewhite;
+    padding: 2px;
+    background-color: darkviolet;
+    border: 2px solid yellow;
+    
+}
+.countp{
+    color:darkslateblue;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
