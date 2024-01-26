@@ -1,36 +1,45 @@
 body{
-    width: 100%;
-    height: 100vh;
-    background-color:darkgoldenrod;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
 }
-.main{
-    margin-top: 100px;
+h1{
+    color: darkmagenta;
 }
-.people{
-    width: fit-content;
+form{
+    background-color: antiquewhite;
+    text-align: center;
+    max-width: 400px;
     margin: auto;
-    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray;
 }
-#count{
-    height:fit-content;
-    width: fit-content;
-    display: block;
-    margin: auto;
-    color: antiquewhite;
-    padding: 2px;
-    background-color: darkviolet;
-    border: 2px solid yellow;
+#textBox{
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+font-size: 1.5em;
+}
+label{
+    font-size: 1.5em;
+}
+button{
+    background-color:midnightblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    margin-top:10px ;
+    border-radius: 5px;
+    cursor: pointer;
     
 }
-.countp{
-    color:darkslateblue;
-    font-family: 'IBM Plex Mono', monospace;
-    
+#result{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
-.icon{
-    height: 100px;
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+button:hover{
+    background-color: steelblue;
 }

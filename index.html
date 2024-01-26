@@ -2,21 +2,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <div class="main">
-      <div class="people">
-        <img class="icon" src="icon.svg" alt="" />
-        <h1 class="countp">People Entered In The Spaceship:</h1>
-        <h2 id="count">0</h2>
-      </div>
-    </div>
+    <form>
+      <h1>Convert Temperature</h1>
+      <input type="number" id="textBox" value="0" />
+      <br /><input type="radio" id="toFahrenheit" name="unit" />
+      <label for="toFahrenheit">Celcius to Farenheit🪄</label>
+      <br /><input type="radio" id="toCelcius" name="unit" />
+      <label for="toFahrenheit">Farenheit to Celcius 🪄</label>
+      <br /><button type="button" onclick="convert()">Submit</button>
+      <p id="result"></p>
+    </form>
     <script src="index.js"></script>
   </body>
 </html>
